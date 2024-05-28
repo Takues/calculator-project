@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculator</title>
+    </head>
+<body>
+    <h1>Hello World!</h1>
+
+    <!-- Javascript -->
+    <script>
+        let firstNumber = null;
+        let operator = null;
+        let secondNumber = null;
+        let thirdNumber = null;
+        let forthNumber = null;
+
+        function add(a, b) {
+            return a + b;
+        }
+        console.log(add(5, 3));
+
+        function subtract(a, b) {
+            return a - b;
+        }
+        console.log(subtract(5, 3));
+
+        function multiply(a, b) {
+            return a * b;
+        }
+        console.log(multiply(5, 3));
+
+        function divide (a, b) {
+            return a / b;
+        }
+        console.log(divide(10, 2));
+
+        let result;
+        if (operator === '+') {
+            result = add(firstNumber + secondNumber);
+        } else if (operator === '-') {
+            result = subtract(firstNumber - secondNumber);
+        } else if (operator === '*') {
+            result = multiply(firstNumber * secondNumber);
+        } else if (operator === '/') {
+            result = divide(firstNumber / secondNumber);
+        } 
+
+        function operate(add, thirdNumber, forthNumber) {
+
+        }
+        //console.log(`Result of ${firstNumber} ${operator} ${secondNumber} = ${result}`);
+
+    </script>
+
+  
+
+    <div class="calculator">
+       <div class="display">12345</div>
+        <button class="clear">C</button>
+        <button class="plusminus">&PlusMinus;</button>
+        <button class="percentage">&percnt;</button>
+        <button class="division">&divide;</button>
+        <button class="number">9</button>
+        <button class="number">8</button>
+        <button class="number">7</button>
+        <button class="multiplication">x</button>
+        <button class="number">6</button>
+        <button class="number">5</button>
+        <button class="number">4</button>
+        <button class="subtract">-</button>
+        <button class="number">3</button>
+        <button class="number">2</button>
+        <button class="number">1</button>
+        <button class="addition">+</button>
+        <button class="numberZero">0</button>
+        <br>
+        <button class="comma">.</button>
+        <button class="equal">=</button>
+    </div>
+
+
+    
+
+
+</body>
+</html>

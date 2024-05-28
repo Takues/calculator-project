@@ -1,0 +1,87 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    max-width: 280px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+.display {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    grid-column: span 4;
+    background: #e0e0e0;
+    text-align: right;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+.division {
+    background-color: #FFA500;
+    font-size: larger;
+    color: white;
+}
+
+.multiplication {
+    background-color: #FF9500;
+    font-size: larger;
+    color: white;
+}
+
+.subtract {
+    background-color: #FF9500;
+    font-size: larger;
+    color: white;
+}
+
+.addition {
+    background-color: #FF9500;
+    font-size: larger;
+    color: white;
+}
+
+.number {
+    background-color: #505050;
+}
+
+.clear {
+    background-color: #D4D4D2;
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.plusminus {
+    background-color: #D4D4D2;
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+button {
+    box-shadow: #D4D4D2;
+}
+
+.percentage {
+    background-color: #D4D4D2;
+    font-size: larger;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.numberZero {
+    background-color: #505050;
+}
+
+.comma {
+    background-color: #505050;
+}
+
+.equal {
+    background-color: #FF9500;
+    font-size: larger;
+    color: white;
+}
